@@ -109,6 +109,8 @@ func romanToInt2(num2 string) int {
 func main() {
 	num1 := "MCMXCIV"
 	num2 := "III"
+	num3 := "VI"
+	fmt.Println(num3)
 	result1 := romanToInt1(num1)
 	result2 := romanToInt2(num2)
 	fmt.Println(result1)
