@@ -110,7 +110,9 @@ func main() {
 	num1 := "MCMXCIV"
 	num2 := "III"
 	num3 := "VI"
+	num4 := "IIII"
 	fmt.Println(num3)
+	fmt.Println(num4)
 	result1 := romanToInt1(num1)
 	result2 := romanToInt2(num2)
 	fmt.Println(result1)
